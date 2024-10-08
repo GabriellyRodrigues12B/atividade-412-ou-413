@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mudança da fonte da página */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color:#FFDB97;
+}
+
+/* Estilização do header */
+header {
+  background-color:#A65C32;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFDB97;
+}
+
+/* Estilização da primeira seção */
+.primeira {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 2rem; /* Espaço entre texto e imagem */
+}
+
+.primeira p {
+  max-width: 600px;
+}
+
+.primeira img {
+  width: 40rem; /* Tamanho da imagem ajustado com rem */
+  border-radius: 10px; 
+}
+
+/* Estilização da segunda seção */
+.segunda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Espaço entre imagens e parágrafo */
+  background-color:#F2BF80; /* Cor de fundo */
+  height: 25rem; /* Altura da segunda div */
+  margin: 3rem 0;
+}
+
+.segunda img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50px; 
+}
+
+.segunda p {
+  max-width: 300px; /* Largura máxima para o parágrafo */
+  text-align: center;
+}
+
+/* Estilização da terceira seção */
+.terceira {
+  display: flex;
+  flex-direction: column; /* Imagens empilhadas */
+  align-items: center;
+  gap: 2rem; /* Espaço entre as imagens */
+  margin-bottom: 10rem;
+}
+
+.terceira img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20px; 
+}
+
+.terceira h2 {
+  background-color: #2A2522;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  color: #A65C32;
+  border-radius: 20px; 
+  width: 100%; /* Faz o h2 ocupar 100% da largura disponível */
+  text-align: center; /* Centraliza o texto */
+}
+
+.terceira p {
+    background-color:#2A2522;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color:#A65C32;
+    border-radius: 20px; 
+}
+/* Espaço entre as divs */
+.primeira, .segunda, .terceira {
+  padding: 2rem;
+}
+
